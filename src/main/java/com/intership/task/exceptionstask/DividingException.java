@@ -1,3 +1,5 @@
+package com.intership.task.exceptionstask;
+
 public class DividingException extends Exception {
     private String exception;
     public DividingException(double firstNumber, double secondNumber)

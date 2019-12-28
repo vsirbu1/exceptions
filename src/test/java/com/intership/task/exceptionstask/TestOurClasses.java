@@ -1,3 +1,5 @@
+package com.intership.task.exceptionstask;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -21,7 +23,7 @@ public class TestOurClasses {
     public void divideByZerochecking(double fn , double sn)
     {
         try {
-            Double result =DivideByZero.dividing(fn,sn);
+            Double result = DivideByZero.dividing(fn,sn);
             System.out.println(result);
         } catch (ArithmeticException e) {
             System.err.println("You try to divide sensitive numbers");

@@ -1,3 +1,5 @@
+package com.intership.task.exceptionstask;
+
 public class CreatingClass {
     public static void tryToCreateClass(String className) throws ClassNotFoundException {
         Object object = Class.forName(className);

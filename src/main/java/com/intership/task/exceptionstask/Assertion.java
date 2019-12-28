@@ -1,3 +1,5 @@
+package com.intership.task.exceptionstask;
+
 import org.hamcrest.MatcherAssert;
 
 public class Assertion {
